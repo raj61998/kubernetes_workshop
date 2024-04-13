@@ -26,7 +26,7 @@ sudo systemctl enable kubelet
 
 Step5: Install RUNC
 
-sudo apt-get install docker.io
+sudo apt-get install -y docker.io
 sudo systemctl enable docker
 sudo systemctl daemon-reload
 sudo systemctl restart docker
